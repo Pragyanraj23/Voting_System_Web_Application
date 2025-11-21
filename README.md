@@ -1,4 +1,5 @@
 Voting_System_Application
+
 The project ‘Voting System’ is basically a capstone project of PHP with MySQL database. 
 The motive behind to develop this project is to learn PHP as a backend technology. This project can perform CRUD operation on database.
 
