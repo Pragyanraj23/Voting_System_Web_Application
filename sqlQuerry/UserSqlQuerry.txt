@@ -1,0 +1,11 @@
+CREATE TABLE `userdata` (
+  `id` int(11) NOT NULL,
+  `username` varchar(200) NOT NULL,
+  `mobile` varchar(10) NOT NULL,
+  `password` varchar(100) NOT NULL,
+  `photo` varchar(200) NOT NULL,
+  `voterid` varchar(20) NOT NULL,
+  `status` int(11) NOT NULL,
+  `standard` enum('Voter','other') NOT NULL,
+  `gender` enum('Male','Female','Other') NOT NULL
+);

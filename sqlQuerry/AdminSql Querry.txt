@@ -1,0 +1,1 @@
+INSERT INTO `admindata`(`username`, `mobile`, `password`) VALUES ('Pragyan','0987654321','pragyan123');

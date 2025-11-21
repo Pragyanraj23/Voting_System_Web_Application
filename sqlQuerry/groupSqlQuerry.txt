@@ -1,0 +1,11 @@
+CREATE TABLE `groupdata` (
+  `gid` int(11) NOT NULL,
+  `gusername` varchar(200) NOT NULL,
+  `gmobile` varchar(10) NOT NULL,
+  `gpassword` varchar(100) NOT NULL,
+  `govid` varchar(20) NOT NULL,
+  `votes` int(11) NOT NULL,
+  `gstandard` enum('group','other') NOT NULL,
+  `gstatus` int(11) NOT NULL,
+  `gphoto` varchar(200) NOT NULL
+);
